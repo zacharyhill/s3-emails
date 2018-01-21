@@ -1,0 +1,25 @@
+{
+  "name": "s3-emails",
+  "version": "1.0.1",
+  "description": "takes email objects from an aws s3 bucket and parses them into an array",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zacharyhill/s3-emails.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.185.0",
+    "mailparser": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "emails",
+    "aws",
+    "parse"
+  ],
+  "author": "zachary hill <zach@zacharyhill.xyz>"
+}
